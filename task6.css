@@ -1,0 +1,442 @@
+body {
+    background-color: rgb(30, 18, 41);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.384);
+    align-items: center;
+}
+
+.h11 {
+    display: flex;
+    position: relative;
+    bottom: 5px;
+    left: 50px;
+}
+
+.ooo {
+    color: red;
+}
+
+.elements {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.elements .menu {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+.intro {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.intro .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    position: relative;
+
+}
+
+.intro .left h1 {
+    max-width: 500px;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.intro .left p {
+    max-width: 500px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+
+.intro .left button {
+    width: 180px;
+    height: 35px;
+    background-color: rgb(223, 64, 64);
+    color: white;
+    border: none;
+    border-radius: 1px;
+    position: absolute;
+    bottom: -30px;
+    left: 130px;
+}
+
+.intro .left button:hover{
+    background-color: red;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.447);
+} 
+
+
+.intro .right {
+    width: 10%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.intro .right .red1 {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+
+.intro .right .red2 {
+    width: 2px;
+    height: 60px;
+    background-color: rgba(255, 238, 238, 0.644);
+    position: relative;
+    top: 30px;
+
+}
+
+.intro .right .red3 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+
+.intro .right .red4 {
+    width: 2px;
+    height: 60px;
+    background-color: rgba(255, 238, 238, 0.644);
+    position: relative;
+    top: 30px;
+}
+
+.intro .right .red5 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+
+
+
+.Skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    position: relative;
+}
+
+.Skills .par {
+    width: 400px;
+    margin-left: 120px;
+    padding: 10px;
+}
+
+.Skills .par h1 {
+    color: red;
+    font-size: 40px;
+}
+
+.Skills .par div {
+    width: 80px;
+    height: 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+.Skills .dad {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.Skills .dad .card {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    padding: 15px;
+    background-color: rgb(52, 39, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.315);
+
+}
+
+.Skills .dad .card img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.right2 {
+    width: 10%;
+    height: 350px;
+    position: absolute;
+    right: 40px;
+}
+
+
+.Skills .right2 .re1 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.Skills .right2 .re2 {
+    width: 2px;
+    height: 60px;
+    background-color: rgba(255, 238, 238, 0.644);
+    position: relative;
+    top: 30px;
+    left: 63px;
+}
+
+.Skills .right2 .re3 {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 52px;
+
+}
+
+
+.Skills .right2 .re4 {
+    width: 2px;
+    height: 60px;
+    background-color: rgba(255, 238, 238, 0.644);
+    position: relative;
+    top: 30px;
+    left: 63px;
+
+}
+
+.Skills .right2 .re5 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px
+}
+
+
+
+
+
+
+.log {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.log .connet {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+    left: 80px;
+
+}
+
+
+.log .connet h1 {
+    font-size: 40px;
+    color: red;
+    margin: 10px;
+}
+
+.log .connet input {
+    width: 400px;
+    background-color: rgb(33, 23, 43);
+    height: 50px;
+    border: none;
+    margin: 10px;
+}
+
+.log .connet ::placeholder {
+    position: relative;
+    left: 20px;
+}
+
+.log .connet button {
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 230px;
+}
+
+.log .connet p {
+    font-size: 15px;
+}
+
+.log .connet img {
+    width: 20px;
+}
+
+
+.right3 {
+    width: 10%;
+    height: 300px;
+    position: absolute;
+    right: 40px;
+}
+
+
+
+
+.log .right3 .r11 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px
+}
+
+
+.log .right3 .r22 {
+    width: 2px;
+    height: 60px;
+    background-color: rgba(255, 238, 238, 0.644);
+    position: relative;
+    top: 30px;
+    left: 63px;
+}
+
+
+.log .right3 .r33 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px
+}
+
+.log .right3 .r44 {
+    width: 2px;
+    height: 60px;
+    background-color: rgba(255, 238, 238, 0.644);
+    position: relative;
+    top: 30px;
+    left: 63px;
+
+}
+
+.log .right3 .r55 {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 52px;
+
+
+}
+
+
+@media screen  and (max-width: 880px){
+    .elements span {
+        display: none;
+    }
+
+    .elements .menu{
+        width: 30px;
+        height: 30px;
+        display: flex;
+    }
+
+    .elements {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        padding: 20px;
+    }
+
+    .intro .left button {
+        width: 180px;
+        height: 35px;
+        background-color: rgb(223, 64, 64);
+        color: white;
+        border: none;
+        border-radius: 1px;
+        position: absolute;
+        bottom: -70px;
+        left: 5px;
+    }
+}
