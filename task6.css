@@ -166,7 +166,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 300px;
     position: relative;
 }
 
@@ -409,6 +409,10 @@ body {
 }
 
 
+
+
+
+
 @media screen  and (max-width: 880px){
     .elements span {
         display: none;
@@ -436,7 +440,43 @@ body {
         border: none;
         border-radius: 1px;
         position: absolute;
-        bottom: -70px;
+        bottom: -180px;
         left: 5px;
     }
+    .log .connet input {
+        width: 250px;
+        background-color: rgb(33, 23, 43);
+        height: 50px;
+        border: none;
+        margin: 10px;
+    }
+    .log .connet button {
+        width: 180px;
+        height: 40px;
+        background-color: red;
+        border: none;
+        border-radius: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        left: 10px;
+    }
+    .Skills .dad {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    Skills .par {
+        width: 400px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+    
 }
